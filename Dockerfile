@@ -1,5 +1,5 @@
-FROM postgres:9.5
-MAINTAINER paul@trippett.org
+FROM postgres:11
+MAINTAINER 3commas.io
 
 COPY docker-entrypoint.sh /
 
